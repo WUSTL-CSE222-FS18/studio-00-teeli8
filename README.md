@@ -11,6 +11,8 @@ You can preview what your Markdown file will look like when styles are added by 
 
 ***Q1. The above paragraph and this sentence use markdown in a few ways.  Give a brief description of anything unusual you notice.  Just enter your description on the lines below:***
 
+The list part is displayed in its own block. Some of the words are specially highlighted in the list items.
+
 ### Lists
 
 Create a numbered list of five of your favorite foods in-order from favorite to least favorite in the designated area below. Be sure to include at least two things that are made of multiple ingredients.  
@@ -19,11 +21,28 @@ For each item that has multiple ingredients, create a sub list of a few (2-5) of
 
 ***Q2. Create your list here:***
 
+List of favorite food:
+
+* Dumplings
+  1. pork
+  2. vegetables
+  3. flour
+* Bananas
+* Chocolate
+* Sushi
+  1. fish / shrimps
+  2. white rice
+* French Fries
+
+
+
 ### Headings
 
 Headings and sub-headings help separate the content of a document.
 
 ***Q3. Add a new third tier heading to this document named "My Heading" here:***
+
+### My Heading
 
 ### Code
 
@@ -31,15 +50,31 @@ Markdown is often used to document code.  Consequently, it supports embedding co
 
 ***Q4. Create a code block below and include a Java `for`-loop that prints numbers from 0 to 10. Be sure to indicate that it's Java, which will cause Java keywords to be highlighted (for example, depending on your configuration `for` may be purple in the preview window; `int` may be orange, etc.):***
 
+```java
+  for(int i = 0; i <= 10; i++){
+    System.out.println(i);
+  }
+```
+
 ## Part 2: What is IoT
 
 This class is about IoT.  [Postscapes](https://www.postscapes.com/internet-of-things-examples/) has a list of examples of IoT.  Pick any three categories (Body, Home City, Industry, etc.) and review any one example of each.
 
 ***Q5.  Based on your reviews, create a table of the top four distinguishing features of IoT applications. One column of the table should have a brief name for the feature (1-4 words) and the second column should have an explanation:***
 
+Festures | explanations
+---------|-------------
+festure 1|explanation 1
+feature 2|explanation 2
+
+
 Search for some additional IoT examples at other sites and find two examples that you find interesting.
 
 ***Q6.  For each example: 1) provide a link to it, 2) provide a brief summary of it, and 3) explain how it corresponds to distinguishing features you identified above and/or or how you may want to revise your list of distinguishing features.  Use lists/sublists to format your answer to this question (A numbered list of 2 items, each of which as 3 sub-items):***
+
+#### [Check on the baby](https://www.mimobaby.com/)
+
+Aimed at helping to prevent SIDS, the Mimo monitor is a new kind of infant monitor that provides parents with real-time information about their baby's breathing, skin temperature, body position, and activity level on their smartphones.
 
 ## Part 3: Comparing with Peers
 
